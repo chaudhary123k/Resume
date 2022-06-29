@@ -3,9 +3,9 @@ import './Education.css';
 
 export default function Education() {
   return (
-    <div className="section bg-light border my-4 mx-4">
+    <div className="section bg-light border my-4 mx-4" id='education'>
         <div className='container title text-center h4 mb-4'>Education</div>
-      <div className="container px-4">
+      <div className="container px-4 education">
         <div className="row gx-5 mx-4 my-4">
           <div className="col-4 front" style={{backgroundColor : "gray"}}>
             <div className="p-3">2020</div>

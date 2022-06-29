@@ -2,3 +2,9 @@
     box-shadow: 10px 10px 10px gray;
 
 }
+@media screen and (max-width: 738px) {
+    .education{
+     background-color: lightskyblue;
+     width: 100%;
+    }
+   }

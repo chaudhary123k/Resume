@@ -13,17 +13,17 @@ export default function Profile() {
   
  
   return (
-    <div>
+    <div className='profile' id='profile'>
 
 <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="false">
   <div className="carousel">
   </div>
   <div className="carousel-inner">
     <div className="carousel-item active">
-      <img src="https://demo.templateflip.com/material-resume/images/header-background.jpg" className="d-block w-100" alt="..."/>
+      <img src="https://demo.templateflip.com/material-resume/images/header-background.jpg" className="d-block" alt="..."/>
       <div className="carousel-caption d-none d-md-block">
         <div className="content-center mx-4 my-4">
-          <a href='#'>
+          <a href='#avtar'>
             <img className='avatar' src={Img} alt="Avatar" />
           </a>
         </div>

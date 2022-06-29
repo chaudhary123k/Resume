@@ -3,4 +3,10 @@
     width: 150px;
     height: 150px;
     border-radius: 50%;
-}
+}@media screen and (max-width: 770px) {
+    .profile{
+     background-color: lightskyblue;
+     width: 100%;
+     position: fixed;
+    }
+   }

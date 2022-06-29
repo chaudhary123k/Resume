@@ -4,7 +4,7 @@ import './Experience.css';
 export default function Experience() {
   return (
     <div className='mx-4 my-4'>
-      <div className="section bg-light border">
+      <div className="section bg-light border" id='experience'>
         <div className='container title text-center h2 mb-2'>1+</div>
         <div className='container title text-center h4 mb-4'>Work Experience</div>
         <div className="container px-4">

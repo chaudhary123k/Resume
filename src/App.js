@@ -37,7 +37,7 @@ const App = () =>{
   return (
     <>
      {/* <ComponentToPrint ref={componentRef}/> */}
-   {/* <Navbar title="Creative CV" /> */}
+   <Navbar title="Creative CV" />
    <Profile />
     <About />
     <Skills />

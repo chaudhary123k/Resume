@@ -3,7 +3,7 @@ import React from 'react';
 
 export default function Skills() {
     return (
-        <div className='mx-4 my-4'> 
+        <div className='mx-4 my-4' id='skills'> 
             
             <div className='container text-center mb-4 title h4'>Professional Skills</div>
             <div className="row gx-5">

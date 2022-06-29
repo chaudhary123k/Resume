@@ -2,8 +2,12 @@
  .about{
     background-color: #f1e9e9;
    }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 738px) {
    .about{
     background-color: lightskyblue;
+    width: 100vw;
+   }
+   .info{
+      width: 100vw;
    }
   }
