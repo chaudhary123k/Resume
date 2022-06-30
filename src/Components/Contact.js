@@ -64,7 +64,7 @@ export default function Contact() {
 
                 {/* <p>{data.length>0?data : ""} <br/> {data2.length>0?data2 : ""} <br/> {data3.length>0?data3 : ""}</p> */}
 
-                <div className='col p-4'>
+                {/* <div className='col p-4'>
                     <div className="row">
                         <div className="col-sm-4">
                             <p style={{ color: "white" }}>Name:</p>
@@ -103,7 +103,7 @@ export default function Contact() {
                     </div>
 
 
-                </div>
+                </div> */}
             </div>
 
         </div>
