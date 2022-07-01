@@ -10,3 +10,38 @@
      position: fixed;
     }
    }
+   .designation{
+      animation-duration: 4s;
+      animation-name: sliden;
+      animation-iteration-count: infinite;
+      animation-direction:alternate-reverse;
+   }
+   .name{
+    animation: name 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+   }
+
+   @keyframes sliden{
+    from
+    {
+        margin-left: 100%;
+        width: 300%;
+    }
+    to{
+        margin-left: 0%;
+        width: 100%;
+    }
+   }
+   @keyframes name{
+    from
+    {
+        margin-right: 100%;
+        width: 300%;
+    }
+    to{
+        margin-right: 0%;
+        width: 100%;
+    }
+   }
+   

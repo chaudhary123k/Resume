@@ -45,7 +45,7 @@ export default function Contact() {
 
         <div style={{ backgroundImage: `url(${background})`, height: 550, margin: 56 }} id='contact'>
             <div className='container title text-center h3 mb-4 mx-2 my-2'>Contact</div>
-            <p className='text-center h4 container mx-4 my-4'>Stay in touch with me</p>
+            <p className='text-center h4 container mx-4 my-4' style={{color : "red"}}>Stay in touch with me</p>
             <div className='container card' style={{
                 height: 400, width: 700, backgroundColor: "#47404e", Color: "white", fontWeight: "bold",
                 fontFamily: "cursive"
@@ -58,7 +58,7 @@ export default function Contact() {
                     <input type="email" className="form-control" id="exampleFormControlInput2" placeholder="name@example.com" name='user_email' />
                     <label for="exampleFormControlTextarea1" className="form-label">Subject</label>
                     <textarea className="form-control" id="exampleFormControlTextarea1" rows="3" name='message'></textarea>
-                    <input type="submit" className="button" name='submit' value="Send"></input>
+                    <input type="submit" className="button" name='submit' value="Send" style={{backgroundColor : "red" , color : "white" , width : 100, padding: 2, margin: 20}}></input>
                 </form>
                 {/* <button className='btn btn-success' onClick={handleclick} style={{ width: 200, justifyContent: 'center', alignItems: 'center' }}>Send</button> */}
 
