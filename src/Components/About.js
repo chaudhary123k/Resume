@@ -40,10 +40,6 @@ export default function About() {
             </div>
           </div>
         </div>
-        <p class="intro-subtitle">
-          <span class="text-slider-items">CEO DevFolio,Web Developer,Web Designer,Frontend Developer,Graphic Designer</span>
-          <strong class="text-slider">CEO DevFoli</strong>
-          <span class="typed-cursor" style={{animationIterationCount : 0}}></span></p>
       </div>
     </>
   )
