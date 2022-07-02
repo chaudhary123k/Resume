@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import background from "./images/xyz.jpg";
 import emailjs from '@emailjs/browser';
+import {motion} from 'framer-motion';
 // import emailjs from 'emailjs-com';
 
 export default function Contact() {
@@ -58,7 +59,7 @@ export default function Contact() {
                     <input type="email" className="form-control" id="exampleFormControlInput2" placeholder="name@example.com" name='user_email' />
                     <label for="exampleFormControlTextarea1" className="form-label">Subject</label>
                     <textarea className="form-control" id="exampleFormControlTextarea1" rows="3" name='message'></textarea>
-                    <input type="submit" className="button" name='submit' value="Send" style={{backgroundColor : "red" , color : "white" , width : 100, padding: 2, margin: 20}}></input>
+                    <motion.input type="submit" className="button" name='submit' value="Send" style={{backgroundColor : "red" , color : "white" , width : 100, padding: 2, margin: 20}} whileHover={{scale:1.1}}></motion.input>
                 </form>
                 {/* <button className='btn btn-success' onClick={handleclick} style={{ width: 200, justifyContent: 'center', alignItems: 'center' }}>Send</button> */}
 

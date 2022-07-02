@@ -2,6 +2,7 @@ import React from 'react';
 import Img from "./images/photo.jpg.jpeg";
 import './Profile.css';
 import Resume from "./Karishma Resume.pdf";
+import {motion} from 'framer-motion';
 // import ReactToPrint from 'react-to-print';
 // import { savePDF } from '@progress/kendo-react-pdf';
 
@@ -25,17 +26,18 @@ export default function Profile() {
       <div className="carousel-caption d-none d-md-block">
         <div className="content-center mx-4 my-4">
           <a href='#avtar'>
-            <img className='avatar' src={Img} alt="Avatar" />
+            <motion.img className='avatar' src={Img} alt="Avatar" animate={{scale: [1, 2, 2, 1, 1],
+      borderRadius: ["20%", "20%", "50%", "50%", "20%"],}} whileHover={{ scale: 1.1 }} />
           </a>
         </div>
-        <h1 className='name' style={{color : "black"}}>Karishma Choudhary</h1>
-        <p className='designation' style={{fontSize : 25 , color: "black"}}>A4 Analyst , Software Developer</p>
-        <p className='designation' style={{fontSize : 25 , color: "black"}}>FrontEnd Developer</p>
+        <motion.h1 style={{color : "black"}} initial={{ opacity: 0 }} animate={{opacity:1}} transition={{delay:0.5 ,duration:2}}>Karishma Choudhary</motion.h1>
+        <motion.p initial={{ opacity: 0 }} animate={{opacity:1}} transition={{delay:1 ,duration:2}} style={{fontSize : 25 , color: "black"}}>A4 Analyst , Software Developer</motion.p>
+        <motion.p style={{fontSize : 25 , color: "black"}} initial={{ opacity: 0 }} animate={{opacity:1}} transition={{delay:1.5 ,duration:2}}>FrontEnd Developer</motion.p>
         <a href='#contact'>
-        <button className='btn my-4 mx-4' style={{color : "white" , backgroundColor: "black"}}>Hire me</button>
+        <motion.button className='btn my-4 mx-4' style={{color : "white" , backgroundColor: "black"}} whileHover={{scale : 1.1 , backgroundColor:"brown"}}>Hire me</motion.button>
         </a>
         <a href={Resume}download>
-      <button className='btn' style={{color : "white" ,  backgroundColor: "black"}}>Download CV</button>
+      <motion.button className='btn' style={{color : "white" ,  backgroundColor: "black"}} whileHover={{scale : 1.1 , backgroundColor:"lightgreen"}}>Download CV</motion.button>
       </a>
       </div>
     </div>

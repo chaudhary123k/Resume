@@ -1,11 +1,12 @@
 import React from 'react';
 import './About.css';
+import {motion} from 'framer-motion';
 
 export default function About() {
   return (
-    <>
-      <div className="section border my-4 mx-4 about" id='about'>
-        <div className="container px-4">
+    <> 
+      <motion.div className="section border my-4 mx-4 about" id='about' initial={{ opacity: 0 }} animate={{opacity:1}} transition={{delay:1.5 ,duration:2}}>
+        <motion.div className="container px-4">
           <div className="row gx-5">
             <div className="col">
               <div className="p-3 h4" style={{ color: "white" }}>About</div>
@@ -39,8 +40,8 @@ export default function About() {
               </div>
             </div>
           </div>
-        </div>
-      </div>
+        </motion.div>
+      </motion.div>
     </>
   )
 }
