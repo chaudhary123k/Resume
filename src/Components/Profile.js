@@ -30,9 +30,9 @@ export default function Profile() {
       borderRadius: ["20%", "20%", "50%", "50%", "20%"],}} whileHover={{ scale: 1.1 }} />
           </a>
         </div>
-        <motion.h1 style={{color : "black"}} initial={{ opacity: 0 }} animate={{opacity:1}} transition={{delay:0.5 ,duration:2}}>Karishma Choudhary</motion.h1>
-        <motion.p initial={{ opacity: 0 }} animate={{opacity:1}} transition={{delay:1 ,duration:2}} style={{fontSize : 25 , color: "black"}}>A4 Analyst , Software Developer</motion.p>
-        <motion.p style={{fontSize : 25 , color: "black"}} initial={{ opacity: 0 }} animate={{opacity:1}} transition={{delay:1.5 ,duration:2}}>FrontEnd Developer</motion.p>
+        <motion.h1 style={{color : "black" , fontFamily:"cursive"}} initial={{ opacity: 0 }} animate={{opacity:1}} transition={{delay:0.5 ,duration:2}}>Karishma Choudhary</motion.h1>
+        <motion.p initial={{ opacity: 0 }} animate={{opacity:1}} transition={{delay:1 ,duration:2}} style={{fontSize : 25 , color: "black" , fontFamily:"cursive"}}>A4 Analyst , Software Developer</motion.p>
+        <motion.p style={{fontSize : 25 , color: "black" ,fontFamily:"cursive"}} initial={{ opacity: 0 }} animate={{opacity:1}} transition={{delay:1.5 ,duration:2}}>FrontEnd Developer</motion.p>
         <a href='#contact'>
         <motion.button className='btn my-4 mx-4' style={{color : "white" , backgroundColor: "black"}} whileHover={{scale : 1.1 , backgroundColor:"brown"}}>Hire me</motion.button>
         </a>

@@ -5,7 +5,7 @@ import {motion} from 'framer-motion';
 export default function About() {
   return (
     <> 
-      <motion.div className="section border my-4 mx-4 about" id='about' initial={{ opacity: 0 }} animate={{opacity:1}} transition={{delay:1.5 ,duration:2}}>
+      <motion.div className="section border my-4 mx-4 about" id='about' whileDrag={{scale:1.2}}  initial="hidden" whileInView="visible" viewport={{ once: true }}>
         <motion.div className="container px-4">
           <div className="row gx-5">
             <div className="col">
