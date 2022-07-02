@@ -26,8 +26,7 @@ export default function Profile() {
       <div className="carousel-caption d-none d-md-block">
         <div className="content-center mx-4 my-4">
           <a href='#avtar'>
-            <motion.img className='avatar' src={Img} alt="Avatar" animate={{scale: [1, 2, 2, 1, 1],
-      borderRadius: ["20%", "20%", "50%", "50%", "20%"],}} whileHover={{ scale: 1.1 }} />
+            <motion.img className='avatar' src={Img} alt="Avatar" animate={{scale: [1, 2, 2, 1, 1]}} whileHover={{ scale: 1.1 }} />
           </a>
         </div>
         <motion.h1 style={{color : "black" , fontFamily:"cursive"}} initial={{ opacity: 0 }} animate={{opacity:1}} transition={{delay:0.5 ,duration:2}}>Karishma Choudhary</motion.h1>
