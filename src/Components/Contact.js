@@ -53,13 +53,13 @@ export default function Contact() {
             }}>
                 <form className="mb-3" onSubmit={sendEmail} ref={form}>
 
-                    <label for="exampleFormControlInput1" className="form-label">Name</label>
+                    <label for="exampleFormControlInput1" className="form-label" style={{color: "white"}}>Name</label>
                     <input type="text" className="form-control" id="exampleFormControlInput1" name='user_name' placeholder="enter your name" />
-                    <label for="exampleFormControlInput1" className="form-label">Email address</label>
+                    <label for="exampleFormControlInput1" className="form-label" style={{color:"white"}}>Email address</label>
                     <input type="email" className="form-control" id="exampleFormControlInput2" placeholder="name@example.com" name='user_email' />
-                    <label for="exampleFormControlTextarea1" className="form-label">Subject</label>
+                    <label for="exampleFormControlTextarea1" className="form-label" style={{color:"white"}}>Subject</label>
                     <textarea className="form-control" id="exampleFormControlTextarea1" rows="3" name='message'></textarea>
-                    <motion.input type="submit" className="button" name='submit' value="Send" style={{backgroundColor : "red" , color : "white" , width : 100, padding: 2, margin: 20}} whileHover={{scale:1.1}}></motion.input>
+                    <motion.input type="submit" className="button" name='submit' value="Send" style={{backgroundColor : "red" , color : "white" , width : 100, padding: 2, margin: 20 , borderRadius:25}} whileHover={{scale:1.1}}></motion.input>
                 </form>
                 {/* <button className='btn btn-success' onClick={handleclick} style={{ width: 200, justifyContent: 'center', alignItems: 'center' }}>Send</button> */}
 

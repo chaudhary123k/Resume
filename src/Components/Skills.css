@@ -1,0 +1,14 @@
+
+    .html{
+        width: 100;
+        background-color: gray;
+        display: flex;
+      flex-direction: column;
+      justify-content: center;
+      overflow: hidden;
+      color: var(--bs-progress-bar-color);
+      text-align: center;
+      white-space: nowrap;
+      background-color: var(--bs-progress-bar-bg);
+      transition: var(--bs-progress-bar-transition);
+     }

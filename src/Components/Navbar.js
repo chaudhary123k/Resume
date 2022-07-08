@@ -27,8 +27,8 @@ export default function Navbar(props) {
     <div className='topnav' id='mynav'>
       <nav className="navbar fixed-top navbar-expand-lg">
   <div className="container-fluid">
-    <motion.a className="navbar-brand" href="#profile" style={{color : "white" , fontFamily: "cursive" ,
-    fontSize: "larger"}} whileHover={{scale:1.1 , color: "red" , fontStyle:"italic"}}>{props.title}</motion.a>
+    <motion.a className="navbar-brand" href="#profile" style={{color : "red" , fontFamily: "cursive" ,
+    fontSize: 25}} whileHover={{scale:1.1 , color: "white" , fontStyle:"italic"}}>{props.title}</motion.a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
@@ -36,23 +36,23 @@ export default function Navbar(props) {
       <ul className="navbar-nav me-auto mb-2 mb-lg-0" >
         <li className="nav-item">
           <motion.a className="nav-link active" aria-current="page" href="#about" style={{ fontFamily: "cursive" ,
-    fontSize: "larger", color : "white"}} whileHover={{scale:1.1 , color:"red" , fontStyle:"italic"}}>About</motion.a>
+    fontSize: 25, color : "red"}} whileHover={{scale:1.1 , color:"white" , fontStyle:"italic"}}>About</motion.a>
         </li>
         <li className="nav-item">
           <motion.a className="nav-link" href="#skills" style={{ fontFamily: "cursive" ,
-    fontSize: "larger" ,color: "white" }} whileHover={{scale:1.1 , color:"red" , fontStyle:"italic"}}>Skills</motion.a>
+    fontSize: 25 ,color: "red" }} whileHover={{scale:1.1 , color:"white" , fontStyle:"italic"}}>Skills</motion.a>
         </li>
         <li className="nav-item">
-          <motion.a className="nav-link" href="#education" style={{color : "white" , fontFamily: "cursive" ,
-    fontSize: "larger"}} whileHover={{scale:1.1 , color:"red" , fontStyle:"italic"}}>Education</motion.a>
+          <motion.a className="nav-link" href="#education" style={{color : "red" , fontFamily: "cursive" ,
+    fontSize: 25}} whileHover={{scale:1.1 , color:"white" , fontStyle:"italic"}}>Education</motion.a>
         </li>
         <li className="nav-item">
-          <motion.a className="nav-link" href="#experience" style={{color : "white" , fontFamily: "cursive" ,
-    fontSize: "larger"}} whileHover={{scale:1.1 , color:"red" , fontStyle:"italic"}}>Experience</motion.a>
+          <motion.a className="nav-link" href="#experience" style={{color : "red" , fontFamily: "cursive" ,
+    fontSize: 25}} whileHover={{scale:1.1 , color:"white" , fontStyle:"italic"}}>Experience</motion.a>
         </li>
         <li className="nav-item">
-          <motion.a className="nav-link" href="#contact" style={{ fontFamily: "cursive" ,color : "white",
-    fontSize: "larger"}} whileHover={{scale:1.1 , color:"red" , fontStyle:"italic"}}>Contact</motion.a>
+          <motion.a className="nav-link" href="#contact" style={{ fontFamily: "cursive" ,color : "red",
+    fontSize: 25}} whileHover={{scale:1.1 , color:"white" , fontStyle:"italic"}}>Contact</motion.a>
         </li>
         {/* <a href="#" class="icon" onclick={myFunction}>
         <i class="fa fa-bars"></i>
