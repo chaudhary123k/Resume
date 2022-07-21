@@ -2,6 +2,7 @@ import React, { useRef } from 'react';
 import background from "./images/xyz.jpg";
 import emailjs from '@emailjs/browser';
 import {motion} from 'framer-motion';
+import "./Contact.css";
 // import emailjs from 'emailjs-com';
 
 export default function Contact() {
@@ -33,25 +34,19 @@ export default function Contact() {
     //     const handleonchange3 = (event) => {
     //         setData3(event.target.value);
     //     }
-    //     const handleclick = () => {
-    //         const newdata = data;
-    //         const newdata1 = data2;
-    //         const newdata2 = data3;
+        // const handleclick = () => {
+        //     const newdata = data;
+        //     const newdata1 = data2;
+        //     const newdata2 = data3;
 
-    //         console.log(newdata, newdata1, newdata2);
-    //         // alert (newdata);
-    //         // setData(newdata);
-    //     }
+        //     console.log(newdata, newdata1, newdata2);
+        //     // alert (newdata);
+        //     // setData(newdata);
+        // }
     return (<>
-
-        <div style={{ backgroundImage: `url(${background})`, height: 550, margin: 56 }} id='contact'>
-            <div className='container title text-center h3 mb-4 mx-2 my-2'>Contact</div>
-            <p className='text-center h4 container mx-4 my-4' style={{color : "red"}}>Stay in touch with me</p>
-            <div className='container card' style={{
-                height: 400, width: 700, backgroundColor: "#47404e", Color: "white", fontWeight: "bold",
-                fontFamily: "cursive"
-            }}>
-                <form className="mb-3" onSubmit={sendEmail} ref={form}>
+          <div className='contact' style={{ backgroundImage: `url(${background})`}} id='contact'>
+            <div className='card'>
+                <form className="form" onSubmit={sendEmail} ref={form}>
 
                     <label for="exampleFormControlInput1" className="form-label" style={{color: "white"}}>Name</label>
                     <input type="text" className="form-control" id="exampleFormControlInput1" name='user_name' placeholder="enter your name" />
@@ -61,6 +56,9 @@ export default function Contact() {
                     <textarea className="form-control" id="exampleFormControlTextarea1" rows="3" name='message'></textarea>
                     <motion.input type="submit" className="button" name='submit' value="Send" style={{backgroundColor : "red" , color : "white" , width : 100, padding: 2, margin: 20 , borderRadius:25}} whileHover={{scale:1.1}}></motion.input>
                 </form>
+                </div>
+                </div>
+        
                 {/* <button className='btn btn-success' onClick={handleclick} style={{ width: 200, justifyContent: 'center', alignItems: 'center' }}>Send</button> */}
 
                 {/* <p>{data.length>0?data : ""} <br/> {data2.length>0?data2 : ""} <br/> {data3.length>0?data3 : ""}</p> */}
@@ -105,9 +103,9 @@ export default function Contact() {
 
 
                 </div> */}
-            </div>
+            
 
-        </div>
+    
     </>
     )
 }

@@ -70,25 +70,24 @@
     margin-right: 10px;
     color:white;
     background-color: black;
-  
+  border-radius: 20px;
     
 }
 .resume{
     padding: 10px;
-    margin-right: 400px;
+    margin-right: 450px;
     margin-left: 10px;
     color:white;
     background-color: black;
-
+    border-radius: 20px;
 }
 *{
     box-sizing: border-box;
 }
 @media screen and (max-width: 770px) {
     .profile{
-     background-color: red;
-     width: 100%;
-     position: fixed;
+     width: 100vw;
+     position: relative;
      /* margin : 0 0px 0 50px; */
     }
    }
@@ -132,6 +131,11 @@
     }
     to{
         margin-right: 0%;
+        width: 100%;
+    }
+   }
+   @media screen and (max-width: 360px) {
+    .profile{
         width: 100%;
     }
    }

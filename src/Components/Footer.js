@@ -1,14 +1,12 @@
-import React from 'react'
+import React from 'react';
+import "./Footer.css";
 
 export default function Footer() {
     return (
-        <div>
-            <div className="card text-center" style={{backgroundColor : "#3f4953"}}>
-                <div className="card-footer">
-                    <h2 style={{color : "white"}}>Karishma Choudhary</h2>
-                    <p style={{color : "white"}}>&copy;Creative CV. All rights reserved.</p>
+            <div className="footer">
+                    <h4>&copy;Creative CV. All rights reserved.</h4>
+                 
                 </div>
-            </div>
-        </div>
+        
     )
 }

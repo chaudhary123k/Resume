@@ -7,10 +7,10 @@ export default function About() {
     <> 
       <motion.div className="section border my-4 mx-4 about" id='about' whileDrag={{scale:1.2}}  initial="hidden" whileInView="visible" viewport={{ once: true }}>
         <motion.div className="container px-4">
-          <div className="row gx-5">
+          <div className="row gx-5 row1">
             <div className="col">
               <div className="p-3 h4" style={{ color: "white" }}>About</div>
-              <p style={{ color: "white" }}>I am reliable. Hard working with strong attention to detail and eager to learn about new technologies.Creative CV is a HTML resume template for professionals. Built with Bootstrap 4, Now UI Kit and FontAwesome, this modern and responsive design template is perfect to showcase your portfolio, skills and experience</p>
+              <p style={{ color: "white" }}>I am reliable. Hard working with strong attention to detail and eager to learn about new technologies.1 year of experience in the IT industry hands on experience with React js, Sap UI5, Sap Fiori, HTML, CSS, Javascript..... Experienced in React js and SAP UI5 development apllications well versed with development applications hands on experience on Visual Studio Code and Web'ID.</p>
             </div>
             <div className="col info">
               <div className="p-3 h4" style={{ color: "white" }}>Basic Information</div>
@@ -20,7 +20,7 @@ export default function About() {
                 </div>
                 <div className="col-sm-6" style={{ color: "white" }}>23</div>
               </div>
-              <div className="row">
+              <div className="row row2">
                 <div className="col-sm-4">
                   <p style={{ color: "white" }}>EMAIL:</p>
                 </div>

@@ -1,4 +1,85 @@
-.topnav{
-    overflow: hidden;
-  background-color: #333;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav{
+  height: 70px;
+  width: 100vw;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 50px 0px 100px;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+}
+nav .logo{
+  font-size: 33px;
+  color: brown;
+  font-weight: 800;
+}
+nav ul{
+  display: flex;
+  list-style: none;
+}
+nav ul li{
+  margin: 0 5px;
+}
+nav ul li a{
+  color: brown;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: 8px 10px;
+  border-radius: 5px;
+}
+nav ul li a:hover{
+  background-color: #fff;
+  color: #1b1b1b;
+  border-radius: 30px;
+}
+nav .menu-btn i{
+  color : white;
+  font-size: 20px;
+  cursor: pointer;
+  display: none;
+}
+#click{
+  display: none;
+}
+
+@media (max-width:940px) {
+  nav{
+      overflow: hidden;
+      height: 100vh;
+  }
+  nav ul{
+      position:fixed;
+      top:80px;
+      left:-100% ;
+      background-color: #111;
+      width: 100%;
+      display: block;
+      text-align: center;
+      transition: all 0.3s ease; 
+  }
+  #click:checked ~ul{
+      left: 0%;
+  }
+  nav ul li{
+      margin:40px 0;
+  }
+  nav ul li a{
+      font-size: 20px;
+      display: block;
+  }
+  nav ul li a:hover{
+      color: cyan;
+  }
+  nav .menu-btn i{
+      display: block;
+  }
 }

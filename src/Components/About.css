@@ -3,7 +3,7 @@
     background-color: #3f4953;
     margin-bottom: 50px;
    }
-   
+  
 @media screen and (max-width: 738px) {
    .about{
     background-color: lightskyblue;
@@ -11,5 +11,10 @@
    }
    .info{
       width: 100vw;
+   }
+  }
+  @media screen and (max-width: 360px) {
+   .about{
+      width: 100%;
    }
   }
