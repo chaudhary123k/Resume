@@ -10,7 +10,22 @@ export default function Experience() {
         <div className="container px-4">
           <div className="row gx-5 my-4 mx-4">
             <div className="col-4 front" style={{ backgroundColor: "gray" }}>
-              <div className="p-3" style={{color : "brown"}}>April 2021 - Present</div>
+              <p className='p-3' style={{color : "brown"}}>June 2022 - July 2022</p>
+              <p className='p-3' style={{color : "white"}}>React Project</p>
+            </div>
+            <div className="col-8 front">
+              <div className="p-3 h4"  style={{color : "brown"}}>Expense Tracker</div>
+              <p  style={{color : "white"}}>This project has developed by me using Reactjs .In this project I have used Visual studio code.Skills is used in that is Reactjs,Html,Css,Javascript . This App is used for track your expenses .
+              </p>
+             <a href="https://chaudhary123k.github.io/react-deploy/">https://chaudhary123k.github.io/react-deploy/
+             </a>
+            </div>
+          </div>
+        </div>
+        <div className="container px-4">
+          <div className="row gx-5 my-4 mx-4">
+            <div className="col-4 front" style={{ backgroundColor: "gray" }}>
+              <div className="p-3" style={{color : "brown"}}>April 2021 - June 2022</div>
               {/* <div className="p-3">Capgemini</div> */}
               <p style={{color : "white"}}>SAP UI5</p>
             </div>
